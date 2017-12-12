@@ -6,7 +6,6 @@ class Shoe
   def initialize(brand)
     if BRANDS.include?(brand) == false
     @brand=brand
-    puts @brand
     BRANDS << brand
   end
   end
@@ -18,7 +17,6 @@ class Shoe
   def brand=(brand)
     if BRANDS.include?(brand) == false
     @brand=brand
-    puts @brand
     BRANDS << brand
   end
   end
