@@ -9,6 +9,7 @@ class Shoe
     puts @brand
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
