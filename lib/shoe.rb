@@ -3,9 +3,10 @@ class Shoe
   attr_reader :brand
   BRANDS = []
 
-  # def initialize(brand)
-  #   @brand = brand
-  # end
+  def initialize(brand)
+    @brand = brand
+    BRANDS << brand
+  end
 
   def cobble
     self.condition = "new"
